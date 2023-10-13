@@ -53,6 +53,11 @@ struct ContentView: View {
                     }
                 }
             }
+            .frame(maxWidth: .infinity)
+            .padding(40)
+            .background(.ultraThinMaterial)
+            .clipShape(.rect(cornerRadius: 20))
+            .padding(.horizontal, 20)
         }
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Continue", action: askQuastions)
