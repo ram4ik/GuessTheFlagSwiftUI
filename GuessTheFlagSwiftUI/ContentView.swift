@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        RadialGradient(colors: [.blue, .black], center: .center, startRadius: 20, endRadius: 200)
+        AngularGradient(colors: [.yellow, .red, .green, .blue, .pink, .yellow], center: .center)
     }
 }
 
